@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    overflow-x: hidden;
+}
+body{
+    background-image: url('background.png');
+    height:100vh;
+    width:100vw;
+    background-size: 100vw 100vh;
+}
+
+.navbar{
+    height:15vh;
+    width:100vw;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+}
+li{
+    margin: 10px 15px;
+}
+.cart{
+    margin:10px;
+}
+.cart img{
+    height:70px;
+    width:70px;
+}
+.logo{
+    margin:10px;
+
+}
+.logo img{
+    height:10vh;
+    width:auto;
+}
+
+
+.text{
+    margin-left: 17vw;
+    margin-top: 35vh;
+}
+.text1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.text2{
+    font-size: 20px;
+    color: blueviolet;
+}
+.image{
+    position: absolute;
+    left: 50vw;
+    top:5vh;
+}
+.image img{
+    height:90vh;
+    width:40vw;
+}
+button{
+    background-color: blueviolet;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 10px;
+    color:white;
+}
+.social-links{
+    position: absolute;
+    top:60vh;
+    left:0vw;
+}
+.social-links ul{
+    display: block;
+
+}
+.social-links ul li{
+    transform: rotateZ(90deg);
+    margin: 65px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
